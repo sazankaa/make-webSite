@@ -4,17 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ウイキョウのページ</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #000000;
+      }
+      header {
+        background: #ff0000;
+        padding: 5px;
+      }
+      main {
+        background: #00ff00;
+        padding: 5px;
+      }
+      footer {
+        background: #0000ff;
+        padding: 5px;
+      }
+      .container {
+        background: white;
+        padding: 5px;
+      }
+      .header-left {
+        background: #ff0077;
+        padding: 5px;
+      }
+      .header-right {
+        background: #ff7700;
+        padding: 5px;
+      }
+      .aboutme {
+        background: #00ff77;
+        padding: 5px;
+      }
+      .link {
+        background: #77ff00;
+        padding: 5px;
+      }
+      .illustrator {
+        background: #77ff77;
+        padding: 5px;
+      }
+      .footer-left {
+        background: #0077ff;
+        padding: 5px;
+      }
+      .footer-right {
+        background: #7700ff;
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
     <header>
+      header
+      <div class="container">
+        header.container
+        <div class="header-left">header.container.header-left</div>
+        <div class="header-right">header.container.header-right</div>
+      </div>
       <!-- fixedすべき -->
       <!--  -->
     </header>
     <main>
+      main
+      <div class="container">
+        main.container
+        <div class="aboutme">main.container.aboutme</div>
+        <div class="link">main.container.link</div>
+        <div class="illustrator">main.container.illustrator</div>
+      </div>
       <!-- 上下にスペースあるべき -->
       <!--  -->
     </main>
     <footer>
+      footer
+      <div class="container">
+        footer.container
+        <div class="footer-left">main.container.footer-left</div>
+        <div class="footer-right">main.container.footer-right</div>
+      </div>
       <!--  -->
     </footer>
   </body>
