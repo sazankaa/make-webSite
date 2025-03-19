@@ -13,37 +13,41 @@
         background: #000000;
       }
       header {
-        background: #ff0000;
         width: 100%;
         position: fixed;
       }
       main {
-        background: #00ff00;
-        padding: 90px 0 10px 0;
+        background-image: url(./2025-3-18.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 150px 0 150px 0;
       }
       footer {
         background: #0000ff;
       }
       .container {
-        background: white;
         padding: 5px;
       }
-      .header-left {
-        background: #ff0077;
+      .header-logo {
+        border-radius: 50%;
       }
+
       .header-right {
-        background: #ff7700;
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        align-items: center;
       }
       .aboutme {
-        background: rgb(7, 194, 110);
+        background: rgba(84, 165, 129, 0.5);
         height: 100px;
       }
       .link {
-        background: #67a233;
+        background: rgba(73, 162, 51, 0.5);
         height: 100px;
       }
       .illustrator {
-        background: #77ff77;
+        background: rgba(119, 255, 119, 0.5);
         height: 100px;
       }
       .footer-left {
@@ -55,6 +59,7 @@
 
       /*  複雑な指定*/
       header > .container {
+        background: rgba(34, 49, 52, 0.9);
         display: flex;
         justify-content: space-between;
       }
@@ -63,6 +68,10 @@
         display: flex;
         justify-content: space-between;
       }
+
+      .header-right > div {
+        padding: 25px;
+      }
     </style>
   </head>
   <body>
@@ -70,8 +79,13 @@
       <!-- header -->
       <div class="container">
         <!-- header.container -->
-        <div class="header-left">header.container.header-left</div>
-        <div class="header-right">header.container.header-right</div>
+        <img src="channels4_profile.jpg" alt="アイコン" class="header-logo" />
+        <!-- 88ピクセル -->
+        <div class="header-right">
+          <div>aboutme</div>
+          <div>link</div>
+          <div>illustrator</div>
+        </div>
       </div>
       <!-- fixedすべき -->
       <!--  -->
@@ -80,7 +94,14 @@
       <!-- main -->
       <div class="container">
         <!-- main.container -->
-        <section class="aboutme">main.container.aboutme</section>
+        <section class="aboutme">
+          <h1>LEARN TO CODE.</h1>
+          <h1>LEARN TO BE CREATIVE.</h1>
+          <p>Progateはオンラインプログラミング学習サービスです。</p>
+          <p>
+            初心者にもやさしいスライドとレッスンで、Webサービスを作りながらプログラミングを学んでいきましょう。
+          </p>
+        </section>
         <section class="link">main.container.link</section>
         <section class="illustrator">main.container.illustrator</section>
       </div>
