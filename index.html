@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ウイキョウのページ</title>
     <style>
+      /* 主な枠組み */
       body {
         margin: 0;
         padding: 0;
@@ -13,15 +14,15 @@
       }
       header {
         background: #ff0000;
-        padding: 5px;
+        width: 100%;
+        position: fixed;
       }
       main {
         background: #00ff00;
-        padding: 5px;
+        padding: 90px 0 10px 0;
       }
       footer {
         background: #0000ff;
-        padding: 5px;
       }
       .container {
         background: white;
@@ -29,39 +30,46 @@
       }
       .header-left {
         background: #ff0077;
-        padding: 5px;
       }
       .header-right {
         background: #ff7700;
-        padding: 5px;
       }
       .aboutme {
         background: rgb(7, 194, 110);
-        padding: 5px;
+        height: 100px;
       }
       .link {
         background: #67a233;
-        padding: 5px;
+        height: 100px;
       }
       .illustrator {
         background: #77ff77;
-        padding: 5px;
+        height: 100px;
       }
       .footer-left {
         background: #0077ff;
-        padding: 5px;
       }
       .footer-right {
         background: #7700ff;
-        padding: 5px;
+      }
+
+      /*  複雑な指定*/
+      header > .container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      footer > .container {
+        display: flex;
+        justify-content: space-between;
       }
     </style>
   </head>
   <body>
     <header>
-      header
+      <!-- header -->
       <div class="container">
-        header.container
+        <!-- header.container -->
         <div class="header-left">header.container.header-left</div>
         <div class="header-right">header.container.header-right</div>
       </div>
@@ -69,24 +77,23 @@
       <!--  -->
     </header>
     <main>
-      main
+      <!-- main -->
       <div class="container">
-        main.container
-        <div class="aboutme">main.container.aboutme</div>
-        <div class="link">main.container.link</div>
-        <div class="illustrator">main.container.illustrator</div>
+        <!-- main.container -->
+        <section class="aboutme">main.container.aboutme</section>
+        <section class="link">main.container.link</section>
+        <section class="illustrator">main.container.illustrator</section>
       </div>
       <!-- 上下にスペースあるべき -->
       <!--  -->
     </main>
     <footer>
-      footer
+      <!-- footer -->
       <div class="container">
-        footer.container
+        <!-- footer.container -->
         <div class="footer-left">main.container.footer-left</div>
         <div class="footer-right">main.container.footer-right</div>
       </div>
-      <!--  -->
     </footer>
   </body>
 </html>
