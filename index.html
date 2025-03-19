@@ -10,7 +10,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background: #000000;
       }
       header {
         width: 100%;
@@ -20,10 +19,13 @@
         background-image: url(./2025-3-18.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 150px 0 150px 0;
+        padding: 120px 0 40px 0;
       }
       footer {
-        background: #0000ff;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
       }
       .container {
         padding: 5px;
@@ -39,22 +41,13 @@
         align-items: center;
       }
       .aboutme {
-        background: rgba(84, 165, 129, 0.5);
-        height: 100px;
+        background: rgba(250, 0, 71, 0.5);
       }
       .link {
-        background: rgba(73, 162, 51, 0.5);
-        height: 100px;
+        background: rgba(208, 255, 0, 0.5);
       }
       .illustrator {
-        background: rgba(119, 255, 119, 0.5);
-        height: 100px;
-      }
-      .footer-left {
-        background: #0077ff;
-      }
-      .footer-right {
-        background: #7700ff;
+        background: rgba(34, 0, 255, 0.5);
       }
 
       /*  複雑な指定*/
@@ -70,50 +63,54 @@
       }
 
       .header-right > div {
-        padding: 25px;
+        padding: 0 25px;
+        color: #fff;
+      }
+
+      footer p {
+        color: #b3aeb5;
+        font-size: 12px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <header>
-      <!-- header -->
       <div class="container">
-        <!-- header.container -->
         <img src="channels4_profile.jpg" alt="アイコン" class="header-logo" />
         <!-- 88ピクセル -->
         <div class="header-right">
-          <div>aboutme</div>
+          <div>About me</div>
           <div>link</div>
           <div>illustrator</div>
         </div>
       </div>
-      <!-- fixedすべき -->
-      <!--  -->
     </header>
     <main>
-      <!-- main -->
       <div class="container">
-        <!-- main.container -->
         <section class="aboutme">
-          <h1>LEARN TO CODE.</h1>
-          <h1>LEARN TO BE CREATIVE.</h1>
-          <p>Progateはオンラインプログラミング学習サービスです。</p>
-          <p>
-            初心者にもやさしいスライドとレッスンで、Webサービスを作りながらプログラミングを学んでいきましょう。
-          </p>
+          ここに文を入力ここに文を入力ここに文を入力ここに文を入力
+          ここに文を入力ここに文を入力ここに文を入力ここに文を入力
+          ここに文を入力ここに文を入力ここに文を入力ここに文を入力
+          ここに文を入力ここに文を入力ここに文を入力ここに文を入力
         </section>
-        <section class="link">main.container.link</section>
-        <section class="illustrator">main.container.illustrator</section>
+        <section class="link">
+          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
+          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
+          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
+          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
+        </section>
+        <section class="illustrator">
+          てとらてとらてとらてとらてとらてとらてとらてとらてとらて
+          とらてとらてとらてとらてとらてとらてとらてとらてとらてと
+          らてとらてとらてとらてとらてとらてとらてとらてとらてとら
+          てとらてとらてとらてとらてとらてとらてとらてとらてとらて
+        </section>
       </div>
-      <!-- 上下にスペースあるべき -->
-      <!--  -->
     </main>
     <footer>
-      <!-- footer -->
       <div class="container">
-        <!-- footer.container -->
-        <div class="footer-left">main.container.footer-left</div>
-        <div class="footer-right">main.container.footer-right</div>
+        <p>No sport, No health.</p>
       </div>
     </footer>
   </body>
