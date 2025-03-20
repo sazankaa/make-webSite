@@ -35,11 +35,11 @@ footer {
   align-items: center;
 }
 .aboutme {
-  background: rgba(202, 184, 232, 0.5);
+  background: rgba(17, 12, 24, 0.556);
   border-radius: 50px;
 }
 .link {
-  background: rgba(208, 255, 0, 0.5);
+  background: rgba(85, 226, 226, 0.91);
   border-radius: 50px;
 }
 .illustrator {
@@ -75,6 +75,7 @@ footer p {
   line-height: 2.5rem;
   padding: 50px 0 0 50px;
   margin: 0;
+  color: rgb(248, 241, 241);
 }
 
 .prof-content {
@@ -96,6 +97,7 @@ footer p {
 .font-bold {
   font-weight: 700;
   padding: 8px 8px 8px 0;
+  color: rgb(255, 255, 255);
 }
 
 table {
@@ -106,6 +108,7 @@ table {
 
 .data {
   padding: 8px 0 8px 8px;
+  color: rgb(255, 255, 255);
 }
 
 .prof-paragraph {
@@ -114,6 +117,8 @@ table {
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 30px;
+  color: #ceff0a;
 }
 
 a {
