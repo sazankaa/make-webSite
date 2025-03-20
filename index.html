@@ -121,6 +121,12 @@
         margin-left: auto;
         margin-right: auto;
       }
+
+      a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -129,9 +135,9 @@
         <img src="channels4_profile.jpg" alt="アイコン" class="header-logo" />
         <!-- 88ピクセル -->
         <div class="header-right">
-          <div>About me</div>
-          <div>link</div>
-          <div>illustrator</div>
+          <div><a href="#Profile" class="href">About me</a></div>
+          <div><a href="#" class="href">link</a></div>
+          <div><a href="#" class="href">illustrator</a></div>
         </div>
       </div>
     </header>
@@ -141,7 +147,7 @@
           <div>
             <!--aboutme全体を囲うブロック-->
 
-            <h2 class="prof-header">Profile</h2>
+            <h2 id="Profile" class="prof-header">Profile</h2>
             <!--見出しに当たる部分(ex:Profile)-->
             <div class="prof-content">
               <!-- アイコンと表をまとめる部分 -->
