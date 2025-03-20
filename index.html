@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ウイキョウのページ</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <style>
       /* 主な枠組み */
       body {
@@ -127,6 +131,50 @@
         font-weight: bold;
         text-decoration: none;
       }
+      .w-8 {
+        width: 2rem;
+      }
+
+      .h-8 {
+        height: 2rem;
+      }
+
+      .link-header {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .link-content {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 25px;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .fa {
+        margin-right: 5px;
+      }
+
+      .btn {
+        padding: 8px 24px;
+        color: white;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+        text-align: center;
+      }
+      .twitter {
+        background-color: #55acee;
+      }
+
+      .github {
+        background-color: #111;
+      }
     </style>
   </head>
   <body>
@@ -201,17 +249,45 @@
           </div>
         </section>
         <section class="link">
-          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
-          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
-          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
-          リンドウリンドウリンドウリンドウリンドウリンドウリンドウ
+          <h2 class="link-header font-bold">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="w-8 h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13"
+              /></svg
+            >Links
+          </h2>
+          <div class="link-content">
+            <a
+              href="https://github.com/sazankaa"
+              target="_blank"
+              class="btn github"
+            >
+              <span class="fa fa-github"></span>GitHub</a
+            >
+            <a
+              href="https://twitter.com/udon0531"
+              target="_blank"
+              class="btn twitter"
+            >
+              <span class="fa fa-twitter"></span>Twitter</a
+            >
+          </div>
         </section>
-        <section class="illustrator">
+        <!-- <section class="illustrator">
           てとらてとらてとらてとらてとらてとらてとらてとらてとらて
           とらてとらてとらてとらてとらてとらてとらてとらてとらてと
           らてとらてとらてとらてとらてとらてとらてとらてとらてとら
           てとらてとらてとらてとらてとらてとらてとらてとらてとらて
-        </section>
+        </section> -->
       </div>
     </main>
     <footer>
