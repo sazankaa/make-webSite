@@ -39,7 +39,7 @@ footer {
   border-radius: 50px;
 }
 .link {
-  background: rgba(85, 226, 226, 0.91);
+  background: rgba(181, 226, 226, 0.91);
   border-radius: 50px;
 }
 .illustrator {
@@ -119,6 +119,7 @@ table {
   margin-right: auto;
   padding-bottom: 30px;
   color: #ceff0a;
+  font-size: large;
 }
 
 a {
@@ -169,4 +170,8 @@ a {
 
 .github {
   background-color: #111;
+}
+
+#Link {
+  opacity: 0;
 }
