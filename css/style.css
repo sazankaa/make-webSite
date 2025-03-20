@@ -10,7 +10,7 @@ header {
   position: fixed;
 }
 main {
-  background-image: url(../images/2025-3-18.jpg);
+  background-image: url(../images/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 500px 0 40px 0;
@@ -174,4 +174,16 @@ a {
 
 #Link {
   opacity: 0;
+}
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hachi-maru-pop-regular {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
